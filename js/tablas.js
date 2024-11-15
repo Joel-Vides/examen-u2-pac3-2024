@@ -7,7 +7,7 @@ const resultado = 0;
 
 
 boton.addEventListener('click', () => {
-    for (let i = 0; i < limite; i++) {
+    for (let i = 1; i <= limite; i++) {
         resultado = numero * i;
     }
     document.querySelector('#result').textContent = resultado;
