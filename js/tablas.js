@@ -10,7 +10,6 @@ boton.addEventListener('click', () => {
     for (let i = 0; i < limite; i++) {
         resultado = numero * i;
     }
-
-    console.log(resultado);
+    document.querySelector('#result').textContent = resultado;
     
 })
